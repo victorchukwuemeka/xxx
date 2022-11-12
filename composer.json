@@ -1,0 +1,30 @@
+{
+    "name": "victor/xxx",
+    "description": "mvc",
+     "scripts":{
+       "serve" :"php -S localhost:8080 -t public"
+     },
+     "autoload" : {
+         "psr-4" : {
+             "App\\" : "app",
+             "Framework\\" : "framework/"
+         },
+
+         "files" : ["helpers/functions.php"]
+      },
+       
+
+     
+     "config" :{
+         "process-timeout" : 0
+     },
+    "require": {
+        "filp/whoops": "^2.14",
+        "symfony/console": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
