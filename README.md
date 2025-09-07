@@ -1,6 +1,6 @@
-# PhoenixPHP
+# InfernoPHP
 
-**PhoenixPHP** is a lightweight PHP MVC framework inspired by Laravel.  
+**InfernoPHP** is a lightweight PHP MVC framework inspired by Laravel.  
 It is designed to be simple, extensible, and easy to use for building web applications.  
 ⚡ **Work in progress – more features coming soon!**
 
@@ -16,7 +16,7 @@ It is designed to be simple, extensible, and easy to use for building web applic
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/phoenixphp.git
+git clone 
 cd phoenixphp
 
 # Install dependencies
